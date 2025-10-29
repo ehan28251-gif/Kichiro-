@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daerah Jepang dan Budayanya</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #ff6b6b, #4ecdc4);
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        nav {
+            background: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #4ecdc4;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .region {
+            margin-bottom: 40px;
+            padding: 20px;
+            border-left: 5px solid #ff6b6b;
+            background: #f9f9f9;
+            border-radius: 8px;
+            transition: transform 0.3s;
+        }
+        .region:hover {
+            transform: translateY(-5px);
+        }
+        .region h2 {
+            color: #ff6b6b;
+            font-size: 2em;
+        }
+        .region img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            border-radius: 8px;
+            float: right;
+            margin-left: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .region p {
+            text-align: justify;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+        @media (max-width: 768px) {
+            .region img {
+                float: none;
+                width: 100%;
+                margin: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Daerah Jepang dan Budayanya</h1>
+        <p>Jelajahi keindahan dan kekayaan budaya dari berbagai daerah di Jepang</p>
+    </header>
+    <nav>
+        <a href="#hokkaido">Hokkaido</a>
+        <a href="#kansai">Kansai</a>
+        <a href="#kyushu">Kyushu</a>
+        <a href="#tokyo">Tokyo (Kanto)</a>
+    </nav>
+    <div class="container">
+        <section id="hokkaido" class="region">
+            <h2>Hokkaido</h2>
+            <img src="https://images.unsplash.com/photo-1542051841857-5f90071e7989?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Hokkaido">
+            <p>Hokkaido adalah pulau terbesar di Jepang, dikenal dengan alamnya yang indah dan musim dingin yang panjang. Budayanya dipengaruhi oleh penduduk asli Ainu, dengan festival seperti Sapporo Snow Festival. Makanan khasnya termasuk seafood segar, ramen, dan susu.</p>
+        </section>
+        <section id="kansai" class="region">
+            <h2>Kansai</h2>
+            <img src="https://images.unsplash.com/photo-1490806843957-31f4c9a91c65?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Kansai">
+            <p>Daerah Kansai meliputi kota seperti Osaka, Kyoto, dan Kobe. Kyoto adalah pusat budaya tradisional dengan kuil-kuil kuno dan geisha. Osaka terkenal dengan makanan jalanan seperti takoyaki dan okonomiyaki, sementara Kansai dikenal dengan dialeknya yang unik dan festival seperti Gion Matsuri.</p>
+        </section>
+        <section id="kyushu" class="region">
+            <h2>Kyushu</h2>
+            <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Kyushu">
+            <p>Kyushu adalah pulau selatan dengan gunung berapi aktif seperti Gunung Aso. Budayanya kaya dengan onsen (pemandian air panas), kastil kuno, dan festival seperti Hakata Gion Yamakasa. Makanan khasnya termasuk ramen Hakata dan shochu.</p>
+        </section>
+        <section id="tokyo" class="region">
+            <h2>Tokyo (Kanto)</h2>
+            <img src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Tokyo">
+            <p>Tokyo adalah ibu kota Jepang, pusat modernitas dengan teknologi canggih dan budaya pop. Namun, daerah Kanto juga memiliki kuil seperti Senso-ji dan festival seperti Hanami. Budayanya mencampur tradisional dan kontemporer, dengan makanan seperti sushi dan tempura.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2023 Eksplorasi Jepang. Dibuat dengan ❤️ untuk pecinta budaya.</p>
+    </footer>
+</body>
+</html>
